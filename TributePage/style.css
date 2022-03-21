@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: monospace, sans-serif;
+    background-color: #EEEEEE;
+  }
+  
+  main {
+    margin: 0;
+  }
+  
+  #title {
+    font-size: 72px;
+  }
+  
+  #subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #bioHeader {
+    font-size: 36px;
+    text-decoration: underline;
+  }
+  
+  #bio {
+    text-indent: 3rem;
+    text-align: left;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: #00002F;
+    padding: 2rem;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EEEEEE;
+  }
