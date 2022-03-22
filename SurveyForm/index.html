@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">RPG Class Selection Survey</h1>
+
+<p id="description">- Concerning the so called 'Holy Trinity' system and more -</p>
+
+<form id="survey-form">
+  
+  <label for="name" id="name-label">Enter your name</label>
+  <input type="text" name="name" id="name" placeholder="Your Name" required/>
+  
+  <label for="email" id="email-label">Enter your email</label>
+  <input type="email" name="email" id="email" placeholder="Your Email" required/>
+  
+  <label for="number" id="number-label">Enter your age</label>
+  <input type="number" name="number" id="number" min="1" max="110" placeholder="Your Age"/>
+  <hr>
+  <label for="classes">Pick your favorite 'Holy Trinity' class</label>
+  <select name="classes" id="dropdown">
+    <option value="tank">Tank: absorbs damage</option>
+    <option value="DPS">DPS: deals damage</option>
+    <option value="healer">Healer: restores health of allies</option>
+  </select>
+  
+  <p id="yesno">Is the Holy Trinity the best class system?</p>
+  <label>
+    <input type="radio" name="yes-no" value="yes" checked>Yes
+  </label>
+  <label>
+    <input type="radio" name="yes-no" value="no">No
+  </label>
+  
+  <p id="which-class">Which hybrid classes are your favorites?</p>
+    <label>
+      <input
+            name="prefer"
+            value="brawler"
+            type="checkbox"
+            class="input-checkbox"
+          /> Brawler: Tank + DPS
+    </label>
+    <label>
+    <input
+          name="prefer"
+          value="paladin"
+          type="checkbox"
+          class="input-checkbox"
+        /> Paladin: Tank + Healer
+    </label>
+    <label>
+    <input
+          name="prefer"
+          value="druid"
+          type="checkbox"
+          class="input-checkbox"
+        />Druid: DPS + Healer
+    </label>
+    <hr>
+    <p id="comment-label">Comments on RPG classes?</p>
+      <textarea
+        id="comments"
+        name="comment"
+        placeholder="Comment here"
+      ></textarea>
+  
+     <button type="submit" id="submit" class="submit-button">
+        Submit
+     </button>
+</form>
+</body>
+</html>

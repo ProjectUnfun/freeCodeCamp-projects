@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  background-image: url(https://i.ytimg.com/vi/9TlmBmMonIc/maxresdefault.jpg);
+  z-index: -1;
+  font-family: VT323, sans-serif;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+#description {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+}
+
+form {
+  background: #8F8F8F;
+  padding: 2rem 0.625rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#name, #email, #number, #dropdown, #comments, #submit {
+  width: 55%;
+}
+
+input, button, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.90rem;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+#yesno, #which-class {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#comments {
+  height: 9rem;
+}
+
+#comment-label {
+  font-size: 3rem;
+   margin-bottom: 0;
+  padding-bottom: 0;
+}
