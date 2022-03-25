@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+all {
+  position: relative;
+}
+
+body {
+  background-image: url(https://images5.alphacoders.com/941/thumb-1920-941959.png);
+}
+
+#header-img {
+  height: 48px;
+  width: 48px;
+}
+
+#header-img2 {
+  height: 48px;
+  width: 48px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3A3A3A;
+  width: 100%;
+}
+
+a {
+  color: #000000;
+}
+
+li {
+  list-style: none;
+  padding: 0.2rem;
+  border: 1px solid black;
+  border-radius: 7%;
+  font-weight: 800;
+  background-color: #AFAFAF;
+  font-family: VT323, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #EFEFEF
+}
+
+nav > ul {
+  width: 35rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#video-section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#video-section > iframe {
+  border: 5px solid #3A3A3A;
+}
+
+#video-section > h2 {
+  font-size: 4rem;
+  font-family: VT323, sans-serif;
+  color: #DFDFDF;
+}
+
+#spacer {
+  height: 5rem;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #AFAFAF;
+  display: flex;
+  justify-content: center;
+  font-family: VT323, sans-serif;
+  text-decoration: underline;
+}
+
+#tagline {
+  font-size: 3rem;
+  font-family: VT323, sans-serif;
+  color: #DFDFDF;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  height: 576px;
+  width: 576px;  
+}
+
+#photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#photo-head {
+  font-size: 4rem;
+  font-family: VT323, sans-serif;
+  color: #DFDFDF;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+  #photos {
+    flex-direction: column;
+  }
+}
+
+#contact {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 5rem;
+  background-color: #000;
+}
+
+#contact input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+#contact input[type='submit'] {
+  max-width: 10rem;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #AFAFAF;
+  font-weight: 600;
+}
+
+#contact input[type='submit']:hover {
+  background-color: yellow;
+}
+
+#contact > h2 {
+  color: #DFDFDF;
+  font-family: sans-serif;
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
