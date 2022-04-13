@@ -15,6 +15,11 @@
 - [x] Personal Portfolio
 
 ### Javascript Algorithms and Data Structures
+- [x] Palindrome Checker
+- [x] Roman Numeral Converter
+- [x] Caesar's Cipher
+- [x] Telephone Number Validator
+- [x] Cash Register
 
 ### Front End Development Libraries
 
